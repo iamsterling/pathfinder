@@ -1,0 +1,27 @@
+:root {
+  --bg: white;
+  --text: black;
+  --brand: #E20074;
+  color: var(--text);
+
+  background: var(--bg);
+  min-height: 100vh;
+  min-height: 100svh;
+  
+  * {
+    margin: 0;
+    padding: 0;
+
+    & > a {
+      color: unset;
+      text-decoration: unset;
+    }
+  }
+
+  body {
+    position: relative;
+    min-height: 100vh;
+    min-height: 100svh;
+
+  }
+}

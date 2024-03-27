@@ -1,0 +1,13 @@
+.header {
+    position: absolute;
+    inset: 0;
+    background: rgb(226,0,116);
+    background: radial-gradient(circle, rgba(226,0,116,0.1) 0%, rgba(226,0,116,0) 50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    pointer-events: none;
+}

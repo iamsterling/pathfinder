@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    z-index: 10000;
+
+    background: white;
+    padding: 0.5rem 1rem;
+
+
+
+
+    a.logo {
+
+        background: var(--brand);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+
+        svg {
+            path {
+                fill: var(--bg);
+            }
+        }
+    }
+}
+.disclaimer {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+
+    background: var(--brand);
+    color: var(--bg);
+    padding: 1rem;
+}
